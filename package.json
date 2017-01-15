@@ -18,7 +18,8 @@
 	},
 	"scripts": {
 		"build": "vsce package",
-		"publish": "vsce publish minor"
+		"publish": "vsce publish minor",
+		"install": "code --install-extension t1g-dark-0.0.1.vsix"
 	},
     "contributes": {
         "themes": [
