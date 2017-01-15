@@ -3,13 +3,19 @@
     "displayName": "t1g-dark-theme",
     "description": "Yet Another Dark Theme",
     "version": "0.0.1",
+	"author": "Jon Redfield <jon.redfield@gmail.com>",
     "publisher": "jonredfield",
+	"license": "MIT",
     "engines": {
         "vscode": "^1.5.0"
     },
     "categories": [
         "Themes"
     ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JonRedfield/t1g-dark-theme.git"
+	},
 	"scripts": {
 		"build": "vsce package",
 		"publish": "vsce publish minor"
