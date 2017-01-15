@@ -1,4 +1,4 @@
-# README
+# t1g-dark
 ## This is the README for your extension "t1g-dark"
 You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
