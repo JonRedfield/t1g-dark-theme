@@ -1,0 +1,26 @@
+{
+    "name": "t1g-dark",
+    "displayName": "t1g-dark-theme",
+    "description": "Yet Another Dark Theme",
+    "version": "0.0.1",
+    "publisher": "jonredfield",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+	"scripts": {
+		"build": "vsce package",
+		"publish": "vsce publish minor"
+	},
+    "contributes": {
+        "themes": [
+            {
+                "label": "t1g-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/OneDark.tmTheme"
+            }
+        ]
+    }
+}
