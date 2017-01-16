@@ -9,7 +9,7 @@
 	<key>author</key>
 	<string>Jon Redfield</string>
 	<key>comment</key>
-	<string>(π) Jon Redfield, 2017</string>
+	<string>(c) Jon Redfield, 2017</string>
 	<key>name</key>
 	<string>t1g - Dark</string>
 	<key>settings</key>
@@ -43,13 +43,13 @@
 				<string>#b2b2b2</string>
 				
 				<key>guide</key>
-				<string>#C7E3FF</string>
+				<string>#4F4F4F</string>
 				
 				<key>activeGuide</key>
-				<string>#78B9FA</string>
+				<string>#6B6B6B</string>
 				
 				<key>stackGuide</key>
-				<string>#000000</string>
+				<string>#4F4F4F</string>
 				
 				<key>bracketsForeground</key>
 				<string>#FFFFFFA6</string>
@@ -145,9 +145,22 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9DFF00</string>
+				<string>#8080FF</string>
 				<key>fontStyle</key>
 				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entity Name Function</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DBDBDB</string>
+				<key>fontStyle</key>
+				<string> </string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,6 +178,32 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Keyword Conrol</string>
+			<key>scope</key>
+			<string>keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#2291FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
 			<string>storage</string>
@@ -174,6 +213,19 @@
 				<string> bold</string>
 				<key>foreground</key>
 				<string>#8AC5FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage Modifier</string>
+			<key>scope</key>
+			<string>storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#2291FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -209,8 +261,36 @@
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#FD971F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable Parameter</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FD971F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable Language</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFCE91</string>
 			</dict>
 		</dict>
 		<dict>
@@ -387,7 +467,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9DFF00</string>
+				<string>#8080FF</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -494,7 +574,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9DFF00</string>
+				<string>#8080FF</string>
 			</dict>
 		</dict>
 		<dict>
